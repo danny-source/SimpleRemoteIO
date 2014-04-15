@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3099283418FBC62A00DD51C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3099283318FBC62A00DD51C4 /* Foundation.framework */; };
+		3099283618FBC62A00DD51C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3099283518FBC62A00DD51C4 /* CoreGraphics.framework */; };
+		3099283818FBC62A00DD51C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3099283718FBC62A00DD51C4 /* UIKit.framework */; };
+		3099283E18FBC62A00DD51C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3099283C18FBC62A00DD51C4 /* InfoPlist.strings */; };
+		3099284018FBC62A00DD51C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3099283F18FBC62A00DD51C4 /* main.m */; };
+		3099284418FBC62A00DD51C4 /* CDYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3099284318FBC62A00DD51C4 /* CDYAppDelegate.m */; };
+		3099284718FBC62A00DD51C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3099284518FBC62A00DD51C4 /* Main.storyboard */; };
+		3099284A18FBC62A00DD51C4 /* CDYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3099284918FBC62A00DD51C4 /* CDYViewController.m */; };
+		3099284C18FBC62A00DD51C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3099284B18FBC62A00DD51C4 /* Images.xcassets */; };
+		3099286918FBC64A00DD51C4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3099286818FBC64A00DD51C4 /* AVFoundation.framework */; };
+		3099286D18FBD75800DD51C4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3099286A18FBD75800DD51C4 /* AudioToolbox.framework */; };
+		3099286F18FBD75800DD51C4 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3099286C18FBD75800DD51C4 /* CoreAudio.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3099283018FBC62A00DD51C4 /* SimpleRemoteIO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleRemoteIO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3099283318FBC62A00DD51C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3099283518FBC62A00DD51C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3099283718FBC62A00DD51C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3099283B18FBC62A00DD51C4 /* SimpleRemoteIO-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleRemoteIO-Info.plist"; sourceTree = "<group>"; };
+		3099283D18FBC62A00DD51C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3099283F18FBC62A00DD51C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3099284118FBC62A00DD51C4 /* SimpleRemoteIO-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleRemoteIO-Prefix.pch"; sourceTree = "<group>"; };
+		3099284218FBC62A00DD51C4 /* CDYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDYAppDelegate.h; sourceTree = "<group>"; };
+		3099284318FBC62A00DD51C4 /* CDYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDYAppDelegate.m; sourceTree = "<group>"; };
+		3099284618FBC62A00DD51C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3099284818FBC62A00DD51C4 /* CDYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDYViewController.h; sourceTree = "<group>"; };
+		3099284918FBC62A00DD51C4 /* CDYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDYViewController.m; sourceTree = "<group>"; };
+		3099284B18FBC62A00DD51C4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3099285218FBC62A00DD51C4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3099285A18FBC62A00DD51C4 /* SimpleRemoteIOTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleRemoteIOTests-Info.plist"; sourceTree = "<group>"; };
+		3099285C18FBC62A00DD51C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3099285E18FBC62A00DD51C4 /* SimpleRemoteIOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleRemoteIOTests.m; sourceTree = "<group>"; };
+		3099286818FBC64A00DD51C4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3099286A18FBD75800DD51C4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3099286B18FBD75800DD51C4 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		3099286C18FBD75800DD51C4 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3099282D18FBC62A00DD51C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3099286D18FBD75800DD51C4 /* AudioToolbox.framework in Frameworks */,
+				3099286F18FBD75800DD51C4 /* CoreAudio.framework in Frameworks */,
+				3099286918FBC64A00DD51C4 /* AVFoundation.framework in Frameworks */,
+				3099283618FBC62A00DD51C4 /* CoreGraphics.framework in Frameworks */,
+				3099283818FBC62A00DD51C4 /* UIKit.framework in Frameworks */,
+				3099283418FBC62A00DD51C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3099282718FBC62A00DD51C4 = {
+			isa = PBXGroup;
+			children = (
+				3099283918FBC62A00DD51C4 /* SimpleRemoteIO */,
+				3099285818FBC62A00DD51C4 /* SimpleRemoteIOTests */,
+				3099283218FBC62A00DD51C4 /* Frameworks */,
+				3099283118FBC62A00DD51C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3099283118FBC62A00DD51C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3099283018FBC62A00DD51C4 /* SimpleRemoteIO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3099283218FBC62A00DD51C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3099286A18FBD75800DD51C4 /* AudioToolbox.framework */,
+				3099286B18FBD75800DD51C4 /* AudioUnit.framework */,
+				3099286C18FBD75800DD51C4 /* CoreAudio.framework */,
+				3099286818FBC64A00DD51C4 /* AVFoundation.framework */,
+				3099283318FBC62A00DD51C4 /* Foundation.framework */,
+				3099283518FBC62A00DD51C4 /* CoreGraphics.framework */,
+				3099283718FBC62A00DD51C4 /* UIKit.framework */,
+				3099285218FBC62A00DD51C4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3099283918FBC62A00DD51C4 /* SimpleRemoteIO */ = {
+			isa = PBXGroup;
+			children = (
+				3099284218FBC62A00DD51C4 /* CDYAppDelegate.h */,
+				3099284318FBC62A00DD51C4 /* CDYAppDelegate.m */,
+				3099284518FBC62A00DD51C4 /* Main.storyboard */,
+				3099284818FBC62A00DD51C4 /* CDYViewController.h */,
+				3099284918FBC62A00DD51C4 /* CDYViewController.m */,
+				3099284B18FBC62A00DD51C4 /* Images.xcassets */,
+				3099283A18FBC62A00DD51C4 /* Supporting Files */,
+			);
+			path = SimpleRemoteIO;
+			sourceTree = "<group>";
+		};
+		3099283A18FBC62A00DD51C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3099283B18FBC62A00DD51C4 /* SimpleRemoteIO-Info.plist */,
+				3099283C18FBC62A00DD51C4 /* InfoPlist.strings */,
+				3099283F18FBC62A00DD51C4 /* main.m */,
+				3099284118FBC62A00DD51C4 /* SimpleRemoteIO-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3099285818FBC62A00DD51C4 /* SimpleRemoteIOTests */ = {
+			isa = PBXGroup;
+			children = (
+				3099285E18FBC62A00DD51C4 /* SimpleRemoteIOTests.m */,
+				3099285918FBC62A00DD51C4 /* Supporting Files */,
+			);
+			path = SimpleRemoteIOTests;
+			sourceTree = "<group>";
+		};
+		3099285918FBC62A00DD51C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3099285A18FBC62A00DD51C4 /* SimpleRemoteIOTests-Info.plist */,
+				3099285B18FBC62A00DD51C4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3099282F18FBC62A00DD51C4 /* SimpleRemoteIO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3099286218FBC62A00DD51C4 /* Build configuration list for PBXNativeTarget "SimpleRemoteIO" */;
+			buildPhases = (
+				3099282C18FBC62A00DD51C4 /* Sources */,
+				3099282D18FBC62A00DD51C4 /* Frameworks */,
+				3099282E18FBC62A00DD51C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleRemoteIO;
+			productName = SimpleRemoteIO;
+			productReference = 3099283018FBC62A00DD51C4 /* SimpleRemoteIO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3099282818FBC62A00DD51C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CDY;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = danny;
+			};
+			buildConfigurationList = 3099282B18FBC62A00DD51C4 /* Build configuration list for PBXProject "SimpleRemoteIO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3099282718FBC62A00DD51C4;
+			productRefGroup = 3099283118FBC62A00DD51C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3099282F18FBC62A00DD51C4 /* SimpleRemoteIO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3099282E18FBC62A00DD51C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3099284C18FBC62A00DD51C4 /* Images.xcassets in Resources */,
+				3099283E18FBC62A00DD51C4 /* InfoPlist.strings in Resources */,
+				3099284718FBC62A00DD51C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3099282C18FBC62A00DD51C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3099284018FBC62A00DD51C4 /* main.m in Sources */,
+				3099284A18FBC62A00DD51C4 /* CDYViewController.m in Sources */,
+				3099284418FBC62A00DD51C4 /* CDYAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3099283C18FBC62A00DD51C4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3099283D18FBC62A00DD51C4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3099284518FBC62A00DD51C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3099284618FBC62A00DD51C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3099285B18FBC62A00DD51C4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3099285C18FBC62A00DD51C4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3099286018FBC62A00DD51C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3099286118FBC62A00DD51C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3099286318FBC62A00DD51C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleRemoteIO/SimpleRemoteIO-Prefix.pch";
+				INFOPLIST_FILE = "SimpleRemoteIO/SimpleRemoteIO-Info.plist";
+				New_Setting = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/Developer/Extras/CoreAudio/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3099286418FBC62A00DD51C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleRemoteIO/SimpleRemoteIO-Prefix.pch";
+				INFOPLIST_FILE = "SimpleRemoteIO/SimpleRemoteIO-Info.plist";
+				New_Setting = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/Developer/Extras/CoreAudio/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3099282B18FBC62A00DD51C4 /* Build configuration list for PBXProject "SimpleRemoteIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3099286018FBC62A00DD51C4 /* Debug */,
+				3099286118FBC62A00DD51C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3099286218FBC62A00DD51C4 /* Build configuration list for PBXNativeTarget "SimpleRemoteIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3099286318FBC62A00DD51C4 /* Debug */,
+				3099286418FBC62A00DD51C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3099282818FBC62A00DD51C4 /* Project object */;
+}
